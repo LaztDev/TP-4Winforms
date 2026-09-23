@@ -30,22 +30,22 @@
             lblPrecio = new Label();
             lblKilometros = new Label();
             lblAnio = new Label();
-            textBox6 = new TextBox();
-            textBox5 = new TextBox();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            textPrecio = new TextBox();
+            textKilometros = new TextBox();
+            textAnio = new TextBox();
+            textPatente = new TextBox();
+            textModelo = new TextBox();
+            textMarca = new TextBox();
             lblPatente = new Label();
             lblModelo = new Label();
             lblMarca = new Label();
             tableLayoutPanel4 = new TableLayoutPanel();
             checkMoto = new CheckBox();
-            lblDetalle = new Label();
-            textBox7 = new TextBox();
-            btnCargar = new Button();
             checkAuto = new CheckBox();
+            lblDetalle = new Label();
+            textDetalle = new TextBox();
             lblTipo = new Label();
+            btnCargar = new Button();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
@@ -105,18 +105,18 @@
             tableLayoutPanel3.Controls.Add(lblPrecio, 1, 6);
             tableLayoutPanel3.Controls.Add(lblKilometros, 1, 5);
             tableLayoutPanel3.Controls.Add(lblAnio, 1, 4);
-            tableLayoutPanel3.Controls.Add(textBox6, 2, 6);
-            tableLayoutPanel3.Controls.Add(textBox5, 2, 5);
-            tableLayoutPanel3.Controls.Add(textBox4, 2, 4);
-            tableLayoutPanel3.Controls.Add(textBox3, 2, 3);
-            tableLayoutPanel3.Controls.Add(textBox2, 2, 2);
-            tableLayoutPanel3.Controls.Add(textBox1, 2, 1);
+            tableLayoutPanel3.Controls.Add(textPrecio, 2, 6);
+            tableLayoutPanel3.Controls.Add(textKilometros, 2, 5);
+            tableLayoutPanel3.Controls.Add(textAnio, 2, 4);
+            tableLayoutPanel3.Controls.Add(textPatente, 2, 3);
+            tableLayoutPanel3.Controls.Add(textModelo, 2, 2);
+            tableLayoutPanel3.Controls.Add(textMarca, 2, 1);
             tableLayoutPanel3.Controls.Add(lblPatente, 1, 3);
             tableLayoutPanel3.Controls.Add(lblModelo, 1, 2);
             tableLayoutPanel3.Controls.Add(lblMarca, 1, 1);
             tableLayoutPanel3.Controls.Add(tableLayoutPanel4, 2, 0);
             tableLayoutPanel3.Controls.Add(lblDetalle, 1, 8);
-            tableLayoutPanel3.Controls.Add(textBox7, 2, 8);
+            tableLayoutPanel3.Controls.Add(textDetalle, 2, 8);
             tableLayoutPanel3.Controls.Add(lblTipo, 1, 0);
             tableLayoutPanel3.Location = new Point(3, 3);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -167,53 +167,53 @@
             lblAnio.Text = "Año";
             lblAnio.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // textBox6
+            // textPrecio
             // 
-            textBox6.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            textBox6.Location = new Point(396, 191);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(275, 27);
-            textBox6.TabIndex = 15;
+            textPrecio.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textPrecio.Location = new Point(396, 191);
+            textPrecio.Name = "textPrecio";
+            textPrecio.Size = new Size(275, 27);
+            textPrecio.TabIndex = 15;
             // 
-            // textBox5
+            // textKilometros
             // 
-            textBox5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            textBox5.Location = new Point(396, 162);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(275, 27);
-            textBox5.TabIndex = 14;
+            textKilometros.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textKilometros.Location = new Point(396, 162);
+            textKilometros.Name = "textKilometros";
+            textKilometros.Size = new Size(275, 27);
+            textKilometros.TabIndex = 14;
             // 
-            // textBox4
+            // textAnio
             // 
-            textBox4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            textBox4.Location = new Point(396, 133);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(275, 27);
-            textBox4.TabIndex = 13;
+            textAnio.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textAnio.Location = new Point(396, 133);
+            textAnio.Name = "textAnio";
+            textAnio.Size = new Size(275, 27);
+            textAnio.TabIndex = 13;
             // 
-            // textBox3
+            // textPatente
             // 
-            textBox3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            textBox3.Location = new Point(396, 104);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(275, 27);
-            textBox3.TabIndex = 12;
+            textPatente.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textPatente.Location = new Point(396, 104);
+            textPatente.Name = "textPatente";
+            textPatente.Size = new Size(275, 27);
+            textPatente.TabIndex = 12;
             // 
-            // textBox2
+            // textModelo
             // 
-            textBox2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            textBox2.Location = new Point(396, 75);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(275, 27);
-            textBox2.TabIndex = 11;
+            textModelo.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textModelo.Location = new Point(396, 75);
+            textModelo.Name = "textModelo";
+            textModelo.Size = new Size(275, 27);
+            textModelo.TabIndex = 11;
             // 
-            // textBox1
+            // textMarca
             // 
-            textBox1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(396, 46);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(275, 27);
-            textBox1.TabIndex = 10;
+            textMarca.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textMarca.Location = new Point(396, 46);
+            textMarca.Name = "textMarca";
+            textMarca.Size = new Size(275, 27);
+            textMarca.TabIndex = 10;
             // 
             // lblPatente
             // 
@@ -275,35 +275,7 @@
             checkMoto.Text = "Moto";
             checkMoto.TextAlign = ContentAlignment.MiddleCenter;
             checkMoto.UseVisualStyleBackColor = true;
-            // 
-            // lblDetalle
-            // 
-            lblDetalle.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            lblDetalle.AutoSize = true;
-            lblDetalle.Location = new Point(115, 246);
-            lblDetalle.Name = "lblDetalle";
-            lblDetalle.Size = new Size(275, 29);
-            lblDetalle.TabIndex = 21;
-            lblDetalle.Text = "Detalle";
-            lblDetalle.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // textBox7
-            // 
-            textBox7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            textBox7.Location = new Point(396, 249);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(275, 27);
-            textBox7.TabIndex = 22;
-            // 
-            // btnCargar
-            // 
-            btnCargar.Anchor = AnchorStyles.None;
-            btnCargar.Location = new Point(316, 320);
-            btnCargar.Name = "btnCargar";
-            btnCargar.Size = new Size(161, 70);
-            btnCargar.TabIndex = 1;
-            btnCargar.Text = "Cargar";
-            btnCargar.UseVisualStyleBackColor = true;
+            checkMoto.CheckedChanged += checkMoto_CheckedChanged;
             // 
             // checkAuto
             // 
@@ -316,6 +288,26 @@
             checkAuto.Text = "Auto";
             checkAuto.TextAlign = ContentAlignment.MiddleCenter;
             checkAuto.UseVisualStyleBackColor = true;
+            checkAuto.CheckedChanged += checkAuto_CheckedChanged;
+            // 
+            // lblDetalle
+            // 
+            lblDetalle.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lblDetalle.AutoSize = true;
+            lblDetalle.Location = new Point(115, 246);
+            lblDetalle.Name = "lblDetalle";
+            lblDetalle.Size = new Size(275, 29);
+            lblDetalle.TabIndex = 21;
+            lblDetalle.Text = "Detalle";
+            lblDetalle.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // textDetalle
+            // 
+            textDetalle.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textDetalle.Location = new Point(396, 249);
+            textDetalle.Name = "textDetalle";
+            textDetalle.Size = new Size(275, 27);
+            textDetalle.TabIndex = 22;
             // 
             // lblTipo
             // 
@@ -328,6 +320,17 @@
             lblTipo.Text = "Tipo de Vehiculo";
             lblTipo.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // btnCargar
+            // 
+            btnCargar.Anchor = AnchorStyles.None;
+            btnCargar.Location = new Point(316, 320);
+            btnCargar.Name = "btnCargar";
+            btnCargar.Size = new Size(161, 70);
+            btnCargar.TabIndex = 1;
+            btnCargar.Text = "Cargar";
+            btnCargar.UseVisualStyleBackColor = true;
+            btnCargar.Click += btnCargar_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -336,6 +339,7 @@
             Controls.Add(tableLayoutPanel1);
             Name = "Form1";
             Text = "Concesionaria";
+            Load += Form1_Load;
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);
@@ -360,12 +364,12 @@
         private Label lblPrecio;
         private Label label10;
         private Label label11;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
+        private TextBox textMarca;
+        private TextBox textModelo;
+        private TextBox textPatente;
+        private TextBox textAnio;
+        private TextBox textKilometros;
+        private TextBox textPrecio;
         private TextBox textBox9;
         private TextBox textBox10;
         private Label label9;
@@ -373,7 +377,7 @@
         private CheckBox checkAuto;
         private CheckBox checkMoto;
         private Label lblDetalle;
-        private TextBox textBox7;
+        private TextBox textDetalle;
         private Button btnCargar;
         private Label lblTipo;
     }
